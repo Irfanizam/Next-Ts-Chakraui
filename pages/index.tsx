@@ -16,8 +16,6 @@ import MenuItem from "../components/navItem";
 import { Text } from "@chakra-ui/react";
 
 const IndexPage = () => {
-  const { toggleColorMode } = useColorMode();
-  const formBackground = useColorModeValue("gray.100", "gray.700");
   return (
     <Flex height={500} width={500}>
       <Box boxSize="sm">
