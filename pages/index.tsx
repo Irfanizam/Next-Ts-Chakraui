@@ -1,16 +1,5 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Heading,
-  Input,
-  Stack,
-  useColorMode,
-  useColorModeValue,
-} from "@chakra-ui/react";
-import Head from "next/head";
+import { Box, Button, Flex, Stack } from "@chakra-ui/react";
 import Link from "next/link";
-import utilStyles from "../styles/utils.module.css";
 import { Image } from "@chakra-ui/react";
 import MenuItem from "../components/navItem";
 import { Text } from "@chakra-ui/react";
